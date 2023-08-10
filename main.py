@@ -7,7 +7,7 @@ import streamlit as st
 class Data:
     def __init__(self, filename):
         path = os.path.dirname(__file__)
-        self.df = pd.read_excel(path+'\\'+filename+'.xlsx')
+        self.df = pd.read_excel(path+'/data/'+filename+'.xlsx')
 
     def get_data(self):
         return self.df
@@ -91,9 +91,6 @@ def create_schedule(raw_df, report_df, type):
                     calendar.loc[i,f'2023/{j}'] = False
         for date in report_df[report_df['ID']==ID]['Date']:
             calendar.loc[i,date] = True
-        
-        # if calendar.iloc[i]['Date'].split('/')[0]<'2023':
-        #     calendar.loc[i,'2023/1'] = True
 
     header = ['ID', 'Name', 'Department', 'Major/Minor', 'Date', 'Frequency']
     for i in range(1,13):
@@ -155,6 +152,6 @@ if __name__=="__main__":
             handle_container.write(data_filtered)
             handle_container.header(f'Schedule for {handle_type}')
             handle_container.write(schedule)
-            schedule.to_csv(f'{handle_type}_schedule.csv')
+            schedule.to_csv(f'output/{handle_type}_schedule.csv')
         else:
             st.text("Wrong type of table")

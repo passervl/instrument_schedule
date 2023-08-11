@@ -1,0 +1,131 @@
+,Name,ID,Department,Major/Minor,Calibration Date/ Ngày hiệu chuẩn cuối,"Calibration frequency/ Lịch hiệu chuẩn
+(year)",Calibration Due date/ Ngày hết hạn hiệu chuẩn,Expected date of calibration / Ngày dự kiến hiệu chuẩn,Status of Calibration
+0,Centrifuge,LT-005,AO,Major,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+1,Centrifuge,LT-006,AO,Major,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+2,Centrifuge,LT-011,AO,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+3,Centrifuge,LT-012,AO,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+4,Pipette,PP-06,AO,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+5,Refrigerator,TL-009,AO,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+6,Thermal hygrometer,AK-01,Bio-Immuno,Minor,2023-05-16 15:28:00,1.0,2024-05-15 15:28:00,2024-04-15 15:28:00,Done
+7,Thermal hygrometer,AK-04,Bio-Immuno,Minor,2023-05-16 15:29:00,1.0,2024-05-15 15:29:00,2024-04-15 15:29:00,Done
+8,Thermal hygrometer,AK-05,Bio-Immuno,Minor,2023-05-16 15:31:00,1.0,2024-05-15 15:31:00,2024-04-15 15:31:00,Done
+9,Electronic hygrometer,AKĐT-1,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+10,Cold centrifuge,LTL-01,Bio-Immuno,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+11,VORTEX machine,ML- 01,Bio-Immuno,Minor,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+12,Thermometer,NK-02,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+13,Thermometer,NK-11,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+14,Electronic thermometer,NKĐT-2,Bio-Immuno,Minor,08/02/2023,1.0,2024-08-01 00:00:00,2024-07-02 00:00:00,Done
+15,Electronic thermometer,NKĐT-3,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+16,Electronic thermometer,NKĐT-4,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+17,Electronic thermometer,NKĐT-5,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+18,Electronic thermometer,NKĐT-6,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+19,Pippette,PP-09,Bio-Immuno,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+20,Pippette,PP-23,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+21,Pippette,PP-24,Bio-Immuno,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+22,Refrigerator Sanyo ,TL-002,Bio-Immuno,Major,2023-04-28 13:07:00,1.0,2024-04-27 13:07:00,2024-03-28 13:07:00,Done
+23,Refrigerator,TL-005,Bio-Immuno,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+24,Refrigerator PANASONIC,TL-010,Bio-Immuno,Major,2023-04-28 13:04:00,1.0,2024-04-27 13:04:00,2024-03-28 13:04:00,Done
+25,Refrigerator HAIER,TL-011,Bio-Immuno,Major,2023-04-28 15:37:00,1.0,2024-04-27 15:37:00,2024-03-28 15:37:00,Done
+26,Refrigerator -20oC,TL-06,Bio-Immuno,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+27,FUME HOOD,FH-01,Cyto Lab,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+28,OVEN,OVEN-01,Cyto Lab,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+29,DAR800,ELISA-02,ELISA,Major,2023-05-10 12:28:00,1.0,2024-05-09 12:28:00,2024-04-09 12:28:00,Done
+30,VORTEX machine,ML-02,ELISA,Minor,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+31,Dry heat block machine,MU-01,ELISA,Minor,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+32,Dry heat block machine,MU-02,ELISA,Minor,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+33,Liquid in glass Thermometer,NK-10,ELISA,Minor,2023-05-16 15:06:00,1.0,2024-05-15 15:06:00,2024-04-15 15:06:00,Done
+34,Liquid in glass Thermometer,NK-12,ELISA,Minor,2023-05-16 15:04:00,1.0,2024-05-15 15:04:00,2024-04-15 15:04:00,Done
+35,Liquid in glass Thermometer,NK-14,ELISA,Minor,2023-05-16 15:07:00,1.0,2024-05-15 15:07:00,2024-04-15 15:07:00,Done
+36,Electronic thermometer,NKĐT-7,ELISA,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+37,Humanpette 50 microlite,PP- 04,ELISA,Minor,2023-05-16 13:59:00,1.0,2024-05-15 13:59:00,2024-04-15 13:59:00,Done
+38,Finnpipette 50 microlite,PP-002,ELISA,Minor,2023-05-16 14:22:00,1.0,2024-05-15 14:22:00,2024-04-15 14:22:00,Done
+39,Finnpippet 500 microlite,PP-006,ELISA,Minor,2023-05-16 14:24:00,1.0,2024-05-15 14:24:00,2024-04-15 14:24:00,Done
+40,Pippette,PP-008,ELISA,Minor,2023-05-16 14:20:00,1.0,2024-05-15 14:20:00,2024-04-15 14:20:00,Done
+41,Pipette proline,PP-12,ELISA,Minor,2023-05-16 14:36:00,1.0,2024-05-15 14:36:00,2024-04-15 14:36:00,Done
+42,Pipet,PP-13 ,ELISA,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+43,Pippet 100 microlite (fixed),PP-17,ELISA,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+44,Pippet 100-1000 microlite,PP-21,ELISA,Minor,05/11/2022,1.0,2023-05-11 00:00:00,2023-04-11 00:00:00,Plan
+45,Pippet 30-300 microlit,PP-22,ELISA,Minor,05/11/2022,1.0,2023-05-11 00:00:00,2023-04-11 00:00:00,Plan
+46,Refrigerator SANAKY,TL-007,ELISA,Major,2023-04-28 13:10:00,1.0,2024-04-27 13:10:00,2024-03-28 13:10:00,Done
+47,INCUBATOR,TU-02,ELISA,Minor,2023-04-28 13:02:00,1.0,2024-04-27 13:02:00,2024-03-28 13:02:00,Done
+48,Hermle Centrifuge,LT-008,GLP,Minor,2022-11-22 14:00:00,1.0,2023-11-22 14:00:00,2023-10-23 14:00:00,Done
+49,Hermle Centrifuge,LT-009,GLP,Minor,2022-11-22 14:00:00,1.0,2023-11-22 14:00:00,2023-10-23 14:00:00,Done
+50,Hermle Centrifuge,LT-010,GLP,Minor,2022-11-22 14:00:00,1.0,2023-11-22 14:00:00,2023-10-23 14:00:00,Done
+51,Storage on SM,STORE-01,GLP,Minor,2022-11-22 14:00:00,1.0,2023-11-22 14:00:00,2023-10-23 14:00:00,Done
+52,Electronic thermometer,NKĐT-8,Hematology - Coagulation,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+53,Finnpipette,PP-10,Hematology - Coagulation,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+54,Pipette Eppendorf,PP-14,Hematology - Coagulation,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+55,Refrigerator SANAKY 800L,TL-008,Hematology - Coagulation,Major,2023-04-28 13:08:00,1.0,2024-04-27 13:08:00,2024-03-28 13:08:00,Done
+56,Class II Biosafety Cabinet,ATSH-02,Microbiology,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+57,Class II Biosafety Cabinet,ATSH-03,Microbiology,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+58,Class II Biosafety Cabinet,ATSH-04,Microbiology,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+59,Electronic scales,CAN-01,Microbiology,Minor,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+60,Turbidimeter,DD-01,Microbiology,Major,11/12/2021,1.0,2022-11-12 00:00:00,2022-10-13 00:00:00,Plan
+61,Shaker,ML-01,Microbiology,Major,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+62,Thermo hygrometer,NAK-02,Microbiology,Minor,2023-05-16 15:16:00,1.0,2024-05-15 15:16:00,2024-04-15 15:16:00,Done
+63,Autoclaves SA - 300VF,NH-01,Microbiology,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+64,Autoclaves SA - 300VF,NH-02,Microbiology,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+65,Loop sterilizer,NH-03,Microbiology,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+66,Thermometer,NK - 02,Microbiology,Minor,2023-05-16 15:02:00,1.0,2024-05-15 15:02:00,2024-04-15 15:02:00,Done
+67,Thermometer,NK - 03,Microbiology,Minor,2023-05-16 15:03:00,1.0,2024-05-15 15:03:00,2024-04-15 15:03:00,Done
+68,Thermometer,NK-01,Microbiology,Minor,05/05/2022,1.0,2023-05-05 00:00:00,2023-04-05 00:00:00,Plan
+69,Pipette 10-100,PP - 02,Microbiology,Minor,2023-05-16 14:21:00,1.0,2024-05-15 14:21:00,2024-04-15 14:21:00,Done
+70,Pipette 0.5-10,PP - 03,Microbiology,Minor,2023-05-16 14:13:00,1.0,2024-05-15 14:13:00,2024-04-15 14:13:00,Done
+71,Refrigerator Sanaky,TL-01,Microbiology,Major,2023-04-28 13:09:00,1.0,2024-04-27 13:09:00,2024-03-28 13:09:00,Done
+72,Refrigerator Sanaky,TL-02,Microbiology,Major,2023-04-28 13:05:00,1.0,2024-04-27 13:05:00,2024-03-28 13:05:00,Done
+73,"Firlabo Incubator 37°C 
+",TU-01,Microbiology,Major,2023-04-28 13:02:00,1.0,2024-04-27 13:02:00,2024-03-28 13:02:00,Done
+74,Class II Biosafety Cabinet,BSC-01,Molecular Biology,Major,2023-04-28 15:39:00,1.0,2024-04-27 15:39:00,2024-03-28 15:39:00,Done
+75,Class II Biosafety Cabinet,BSC-02,Molecular Biology,Major,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+76,Class II Biosafety Cabinet,BSC-03,Molecular Biology,Major,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+77,Refrigerator 2-8oC,CF-01,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+78,Refrigerator 2-8oC,CF-02,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+79,Refrigerator 2-8oC,CF-03,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+80,Refrigerator -20oC,DF-01,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+81,Refrigerator -70oC,DF-02,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+82,Pipette 0.2-2ul,FAM002302_1,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+83,Pipette 0.2-2ul,FAM002302_2,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+84,Pipette 0.2-2ul,FAM002302_3,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+85,Pipette 100-1000ul,FAM002303,Molecular Biology,Minor,10/11/2021,1.0,2022-10-11 00:00:00,2022-09-11 00:00:00,Plan
+86,Pipette 100-1000ul,FAM002303_1,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+87,Pipette 100-1000ul,FAM002303_2,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+88,Pipette 1-10ul,FAM002305_1,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+89,Pipette 1-10ul,FAM002305_2,Molecular Biology,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+90,Pipette 1-10ul,FAM002305_3,Molecular Biology,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+91,Pipette 20-200ul,FAM002306_1,Molecular Biology,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+92,Pipette 20-200ul,FAM002306_2,Molecular Biology,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+93,Pipette 20-200ul,FAM002306_3,Molecular Biology,Minor,2023-02-16 00:00:00,1.0,2024-02-16 00:00:00,2024-01-17 00:00:00,Done
+94,Centrifuge,LT-01,Molecular Biology,Major,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+95,Cold Centrifuge,LT-02,Molecular Biology,Major,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+96,Agilent Microplate Centrifuge,MC-01,Molecular Biology,Major,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+97,Minispin,MS-01,Molecular Biology,Minor,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+98,Multi-tube Vortexer,MVT-01,Molecular Biology,Minor,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+99,Multi-tube Vortexer,MVT-02,Molecular Biology,Minor,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+100,Autoclaves,NH-04,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+101,Water heating bath,NU-01,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+102,Multichannel Pipette (5-50uL),PP-01,Molecular Biology,Minor,11/05/2021,1.0,2022-11-05 00:00:00,2022-10-06 00:00:00,Plan
+103,Pipette 10-100uL,PP-02,Molecular Biology,Minor,2023-05-16 14:03:00,1.0,2024-05-15 14:03:00,2024-04-15 14:03:00,Done
+104,Multichannel Pipette (30-300uL),PP-03,Molecular Biology,Minor,2023-05-16 13:18:00,1.0,2024-05-15 13:18:00,2024-04-15 13:18:00,Done
+105,Multichannel Pipette (5-100uL),PP-04,Molecular Biology,Minor,2023-05-16 14:00:00,1.0,2024-05-15 14:00:00,2024-04-15 14:00:00,Done
+106,Multichannel Pipette (5-50uL),PP-05,Molecular Biology,Minor,2023-05-16 13:20:00,1.0,2024-05-15 13:20:00,2024-04-15 13:20:00,Done
+107,Thermo-hygrometer,TH-01,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+108,Thermo-hygrometer,TH-02,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+109,Thermo-hygrometer,TH-03,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+110,Thermo-hygrometer,TH-04,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+111,Refrigerator -20oC,TL-07,Molecular Biology,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+112,Tempmate-M1 temperature data logger,TP-01,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+113,Tempmate-M1 temperature data logger,TP-02,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+114,Tempmate-M1 temperature data logger,TP-03,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+115,Temperature USB Datalogger ,TP-04,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+116,Temperature USB Datalogger ,TP-05,Molecular Biology,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+117,Mini vortexer,VT-01,Molecular Biology,Minor,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+118,Vortexter,VT-02,Molecular Biology,Minor,2023-02-11 00:00:00,1.0,2024-02-11 00:00:00,2024-01-12 00:00:00,Done
+119,Thermal hygrometer,AK-03,R&D,Minor,2023-05-16 15:27:00,1.0,2024-05-15 15:27:00,2024-04-15 15:27:00,Done
+120,Pipette 1-10ul,F2-PP10,R&D,Minor,2023-05-16 14:37:00,1.0,2024-05-15 14:37:00,2024-04-15 14:37:00,Done
+121,Pipette 100-1000ul,F2-PP1000,R&D,Minor,2023-05-16 14:36:00,1.0,2024-05-15 14:36:00,2024-04-15 14:36:00,Done
+122,Pipette 20-200ul,F2-PP200,R&D,Minor,2023-05-16 14:23:00,1.0,2024-05-15 14:23:00,2024-04-15 14:23:00,Done
+123,Máy lắc Microplate,MP01,R&D,Minor,2023-04-28 13:55:00,1.0,2024-04-27 13:55:00,2024-03-28 13:55:00,Done
+124,Electronic hygrometer,AKĐT-2,Warehouse,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+125,Cold warehouse,KHO-01,Warehouse,Major,2023-02-09 00:00:00,1.0,2024-02-09 00:00:00,2024-01-10 00:00:00,Done
+126,Electronic thermometer,NKĐT-1,Warehouse,Minor,2023-02-10 00:00:00,1.0,2024-02-10 00:00:00,2024-01-11 00:00:00,Done
+127,Refrigerator HAIER,TL-012,Warehouse,Major,2023-04-28 15:36:00,1.0,2024-04-27 15:36:00,2024-03-28 15:36:00,Done

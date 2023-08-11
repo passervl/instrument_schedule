@@ -3,40 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 import streamlit as st
-
-class Data:
-    def __init__(self, filename):
-        path = os.path.dirname(__file__)
-        self.df = pd.read_excel(path+'/data/'+filename+'.xlsx')
-
-    def get_data(self):
-        return self.df
-    
-    def get_data_by_name(self, name):
-        return self.df[self.df['Name of the Instrument'] == name]
-    
-    def get_data_by_ID(self, ID):
-        return self.df[self.df['Instrument ID*/ ID thiết bị'] == ID]
-    
-def data_filter(df, type):
-    try:
-        if type=="Maintenance":
-            columns = ['Name of the Instrument', 'Instrument ID*/ ID thiết bị','Department/Section\nBộ phận','Major/ Minor\nThiết bị chính/ Thiết bị phụ',
-                    'Preventive maintence Date/ Ngày bảo trì bảo dưỡng cuối','PM Frequency/ lịch bảo trì bảo dưỡng định kỳ\n(month)',
-                    'Preventive Maintence Due Date/ Hạn bảo trì bảo dưỡng','Expected date of maintenance / Ngày dự kiến bảo trì','Status of Maintenance'
-                    ]
-        elif type=="Calibration":
-            columns = ['Name of the Instrument', 'Instrument ID*/ ID thiết bị','Department/Section\nBộ phận','Major/ Minor\nThiết bị chính/ Thiết bị phụ',
-                    'Calibration Date/ Ngày hiệu chuẩn cuối','Calibration frequency/ Lịch hiệu chuẩn\n(year)',
-                    'Calibration Due date/ Ngày hết hạn hiệu chuẩn','Expected date of calibration / Ngày dự kiến hiệu chuẩn','Status of Calibration'
-                    ]
-        return df[columns].dropna().reset_index(drop=True)
-    except:
-        return df
+from src.get_data import Data, data_filter
+from src.side_bar import side_bar, home, report
 
 def create_schedule(raw_df, report_df, type):
     # Prepare raw data
-    columns = ['Name of the Instrument', 'Instrument ID*/ ID thiết bị','Department/Section\nBộ phận','Major/ Minor\nThiết bị chính/ Thiết bị phụ']
+    columns = ['Name', 'ID','Department','Major/Minor']
     if type=="Maintenance":
         columns += ['Preventive maintence Date/ Ngày bảo trì bảo dưỡng cuối','PM Frequency/ lịch bảo trì bảo dưỡng định kỳ\n(month)']
         raw_df = raw_df[columns].dropna()
@@ -51,15 +23,9 @@ def create_schedule(raw_df, report_df, type):
         raw_df.rename(columns={'Calibration frequency/ Lịch hiệu chuẩn\n(year)':'Frequency'}, inplace=True)
     raw_df['Date'] = raw_df['Date'].dt.strftime('%Y/%m')
     raw_df['Frequency'] = raw_df['Frequency'].astype(int)
-    raw_df.rename(columns={'Name of the Instrument':'Name'}, inplace=True)
-    raw_df.rename(columns={'Instrument ID*/ ID thiết bị':'ID'}, inplace=True)
-    raw_df.rename(columns={'Department/Section\nBộ phận':'Department'}, inplace=True)
-    raw_df.rename(columns={'Major/ Minor\nThiết bị chính/ Thiết bị phụ':'Major/Minor'}, inplace=True)
 
     # Prepare report data
     report_df = report_df[report_df['Type'] == type]
-    report_df.rename(columns={'ID':'PID'}, inplace=True)
-    report_df.rename(columns={'Instrument ID':'ID'}, inplace=True)
     report_df.rename(columns={'Complete Time':'Date'}, inplace=True)
     report_df['Date'] = report_df['Date'].dt.strftime('%Y/%m')
     report_df.drop_duplicates(subset=['ID','Date'], inplace=True)
@@ -67,7 +33,6 @@ def create_schedule(raw_df, report_df, type):
     report_df['Date'] = report_df['Date'].str.replace('/0','/')
     report_df.sort_values(by=['ID','Date'], inplace=True, ascending=True)
     report_df.reset_index(drop=True, inplace=True)
-    report_df
 
     # Create schedule
     calendar = pd.DataFrame()
@@ -76,7 +41,8 @@ def create_schedule(raw_df, report_df, type):
     calendar['Department'] = raw_df['Department']
     calendar['Major/Minor'] = raw_df['Major/Minor']
     calendar['Date'] = raw_df['Date']
-    calendar['Frequency'] = raw_df['Frequency']
+    if type == "Maintenance": calendar['Frequency'] = raw_df['Frequency']
+    else: calendar['Frequency'] = raw_df['Frequency']*12
     for i in range(len(calendar)):
         frequency = calendar.iloc[i]['Frequency']
         if frequency == 0: calendar.iloc[i]['Frequency'] = 1
@@ -99,7 +65,7 @@ def create_schedule(raw_df, report_df, type):
 
 # '''Repairing data'''
 st.title('Report')
-st.write('This is a report for instrument data')
+st.write('Create report and schedule for instruments data')
 # Raw data
 raw = Data('Instrument_Data')
 raw_df = raw.get_data()
@@ -107,9 +73,9 @@ report = Data('report_data')
 report_df = report.get_data()
 # Form
 form = st.form("Choice data")
-instrument_list = np.insert(raw_df['Name of the Instrument'].unique(),0,'All')
+instrument_list = np.insert(raw_df['Name'].unique(),0,'All')
 name = form.selectbox("Name of instrument: ", instrument_list)
-instrument_list_ID = np.insert(raw_df[raw_df['Name of the Instrument']==name]['Instrument ID*/ ID thiết bị'].unique(),0,'All')
+instrument_list_ID = np.insert(raw_df[raw_df['Name']==name]['ID'].unique(),0,'All')
 ID = form.selectbox("Instrument ID: ", instrument_list_ID)
 handle_type = form.selectbox("Type of table: ",['All','Breakdown','Maintenance','Calibration'])
 form.form_submit_button("Get data")
@@ -120,6 +86,8 @@ col1, col2, col3 = menu.columns(3)
 raw_btn = col1.button("Raw data")
 report_btn = col2.button("Report data")
 handle_btn = col3.button("Handle data")
+
+side_bar()
 # ''''''
 
 if __name__=="__main__":
@@ -130,16 +98,21 @@ if __name__=="__main__":
         raw_container.write(raw_df)
     # Data by report
     if report_btn:
+        file_name = 'report'
         if name != 'All':
             report_df = report_df[report_df['Name']==name]
+            file_name +=f'_{name}'
         if ID != 'All':
-            report_df = report_df[report_df['Instrument ID']==ID]
+            report_df = report_df[report_df['ID']==ID]
+            file_name +=f'_{ID}'
         if handle_type != 'All':
             report_df = report_df[report_df['Type']==handle_type]
+            file_name +=f'_{handle_type}'
 
         instrument_container = st.container()
         instrument_container.header('Data by Instrument')
         instrument_container.write(report_df)
+        report_df.to_csv(f'output/report/{file_name}.csv',encoding='utf-8-sig')
     # Handle data
     if handle_btn:
         if handle_type in ['Maintenance', 'Calibration']:
@@ -148,10 +121,11 @@ if __name__=="__main__":
             schedule = create_schedule(data_filtered,report_dt, handle_type)
 
             handle_container = st.container()
-            handle_container.header(f'Table for {handle_type}')
+            handle_container.header(f'Report for {handle_type}')
             handle_container.write(data_filtered)
+            data_filtered.to_csv(f'output/report/{handle_type}_report.csv', encoding='utf-8-sig')
             handle_container.header(f'Schedule for {handle_type}')
             handle_container.write(schedule)
-            schedule.to_csv(f'output/{handle_type}_schedule.csv')
+            schedule.to_csv(f'output/schedule/{handle_type}_schedule.csv', encoding='utf-8-sig')
         else:
             st.text("Wrong type of table")

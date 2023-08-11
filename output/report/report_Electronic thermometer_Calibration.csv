@@ -1,0 +1,8 @@
+﻿,PID,Department,Name,ID,Instrument Breakdown Date,Contact Time,Suport Time,Complete Time,Type,Detail,Action,Offline/ Online Support,Suport Persion,Contact Persion,Current Status,Note,Test affected during breakdown (yes/No),Name of the test affected,No of test affected,Image,File,Unnamed: 21
+354,920,Warehouse,Electronic thermometer,NKĐT-1,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+355,705,Bio-Immuno,Electronic thermometer,NKĐT-3,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+356,77,Bio-Immuno,Electronic thermometer,NKĐT-4,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+357,912,Bio-Immuno,Electronic thermometer,NKĐT-5,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+358,222,Bio-Immuno,Electronic thermometer,NKĐT-6,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+359,910,ELISA,Electronic thermometer,NKĐT-7,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,
+360,444,Hematology - Coagulation,Electronic thermometer,NKĐT-8,2023-02-10,2023-02-10,2023-02-10,2023-02-14,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,Calibration outsite,0.0,,,,,

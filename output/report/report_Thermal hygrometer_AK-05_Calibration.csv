@@ -1,0 +1,2 @@
+,PID,Department,Name,ID,Instrument Breakdown Date,Contact Time,Suport Time,Complete Time,Type,Detail,Action,Offline/ Online Support,Suport Persion,Contact Persion,Current Status,Note,Test affected during breakdown (yes/No),Name of the test affected,No of test affected,Image,File,Unnamed: 21
+111,13af91ee,Bio-Immuno,Thermal hygrometer,AK-05,2023-05-16 15:31:00,2023-05-16 15:41:00,2023-05-16 16:11:00,2023-05-16 17:11:00,Calibration,Annual Calibration,Calibration,Offline,CTCR3,BME,Done,,0.0,,,report_Images/13af91ee.Image.101207.png,,
